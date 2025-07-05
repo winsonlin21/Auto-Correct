@@ -14,7 +14,7 @@ if __name__ == "__main__":
     keyboard_file = 'keyboard.txt'
     '''
     #inputs    
-    file_input = open("input_words.txt").read().strip().split('\n')
+    file_input = open("input.txt").read().strip().split('\n')
     
     file_dict = open('20k.txt').read().strip().split('\n')
     dictionary = dict()
